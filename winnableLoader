@@ -1,0 +1,15 @@
+local gamelist = {
+    [2866967438] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable1"
+    [2753915549] ="https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable2",
+    [4442272183] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable2",
+    [7449423635] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable2",
+    [5931540094] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable3",
+    [6381829480] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable3",
+    [4520749081] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable3",
+    [9224601490] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable4",
+    [6918802270] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable5"
+}
+local check = game[game.PlaceId]
+if check then 
+loadstring(game:HttpGet(check))()
+end
