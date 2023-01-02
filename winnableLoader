@@ -9,7 +9,7 @@ local gamelist = {
     [9224601490] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable4",
     [6918802270] = "https://raw.githubusercontent.com/nomed-rin/-pp-Meta/main/winnable5"
 }
-local check = game[game.PlaceId]
+local check =  gamelist[game.PlaceId]
 if check then 
 loadstring(game:HttpGet(check))()
 end
